@@ -14,7 +14,7 @@ Ran app by command `npm start`.
 
 Ran command: `docker init` and edited the dockerfile suitable to my program. \
 For example, since my program ran on root (./), changed the "WORKDIR" to: `WORKDIR ./` \
-Added "watch" to "services" in "compose.yaml": \
+Added "watch" to "services" in "compose.yaml":
 
 ```
 services:
